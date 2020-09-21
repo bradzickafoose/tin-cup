@@ -1,15 +1,28 @@
 {
   "name": "tin-cup",
+  "description": "A theme for The Tin Cup Kitchen + Oyster Bar",
+  "author": "Brad Zickafoose <hello@bradzickafoose.com>",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradzickafoose/tin-cup"
+  },
+  "bugs": {
+    "url": "https://github.com/bradzickafoose/tin-cup/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.2",
+    "framer-motion": "^2.6.15",
+    "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0"
   }
 }
