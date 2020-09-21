@@ -17,6 +17,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "framer-motion": "^2.6.15",
     "next": "9.5.3",
     "react": "16.13.1",
