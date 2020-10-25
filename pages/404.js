@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Layout from 'components/layout/Layout';
+import Link from 'next/link'
+import Layout from 'components/layout/layout'
 
 export default function Custom404Page() {
   return (
@@ -10,5 +10,5 @@ export default function Custom404Page() {
         <a>Go back to the beginning?</a>
       </Link>
     </Layout>
-  );
+  )
 }

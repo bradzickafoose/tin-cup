@@ -1,9 +1,14 @@
-import React from 'react';
-import Head from 'next/head';
-import Header from 'components/layout/Header';
-import Footer from 'components/layout/Footer';
+import React from 'react'
+import Head from 'next/head'
+import Header from 'components/layout/Header'
+import Footer from 'components/layout/Footer'
 
-export default function Layout({ title, children, header = true, footer = true }) {
+export default function Layout({
+  title,
+  children,
+  header = true,
+  footer = true,
+}) {
   return (
     <>
       <Head>
@@ -13,5 +18,5 @@ export default function Layout({ title, children, header = true, footer = true }
       <main>{children}</main>
       {footer && <Footer />}
     </>
-  );
+  )
 }

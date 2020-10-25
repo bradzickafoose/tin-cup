@@ -6,8 +6,8 @@ module.exports = {
         test: /\.js$/,
       },
       use: ['@svgr/webpack'],
-    });
+    })
 
-    return config;
+    return config
   },
-};
+}
